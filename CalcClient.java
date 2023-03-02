@@ -35,6 +35,9 @@ public class CalcClient {
             System.out.println("Resta: " + c.restar(ops));
             System.out.println("Multiplicación: " + c.multiplicar(ops));
             System.out.println("División: " + c.dividir(ops));
+            System.out.println("MPH a KMH: " + c.MPH_KMH(ops));
+            System.out.println("IVA: " + c.IVA(ops));
+            System.out.println("Raiz: " + c.Raiz(ops));
         } catch (Exception e) {
             e.printStackTrace();
             System.exit(-1);

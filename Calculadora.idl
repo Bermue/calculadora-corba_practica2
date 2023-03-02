@@ -10,5 +10,9 @@ module MCalculadora {
         long restar(in Operadores Ops);
         long multiplicar(in Operadores Ops);
         long dividir(in Operadores Ops);
+        double MPH_KMH(in Operadores Ops);
+        double IVA(in Operadores Ops);
+        double Raiz(in Operadores Ops);
+
     };
 };
